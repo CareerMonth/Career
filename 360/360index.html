@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>360商城</title>
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="css/initial.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrapper-max">
+    <!--头部的搜索框-->
+    <div class="top">
+        <a href="./html/search.html">
+            <input type="text" class="top-search" name="search" placeholder="搜索商品">
+        </a>
+    </div>
+    <!--轮播图开始-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="http://b2c-online.c-bj.jcloud.com/23cd9f93-7132-4283-a524-74eb1ee5a563.jpg"/>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="http://b2c-online.c-bj.jcloud.com/5ebeb4ff-ca92-4e09-9d64-2a0b222270b5.jpg"/>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="http://b2c-online.c-bj.jcloud.com/31111a1f-ef6c-482d-a142-d1c29ead970d.jpg"/>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="http://b2c-online.c-bj.jcloud.com/a5e8fbe8-3a71-4d32-974f-453635c4f06a.jpg"/>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="http://b2c-online.c-bj.jcloud.com/ec30836d-b753-48f4-b184-9b543d02d22e.jpg"/>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="http://b2c-online.c-bj.jcloud.com/23cd9f93-7132-4283-a524-74eb1ee5a563.jpg"/>
+                </a>
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <!--<div class="swiper-button-prev"></div>-->
+        <!--<div class="swiper-button-next"></div>-->
+
+        <!-- 如果需要滚动条 -->
+        <!--<div class="swiper-scrollbar"></div>-->
+    </div>
+    <!--第二信息轮播-->
+    <div class="msg-box clearFixed">
+        <h1 class="shangchang">商城<span>头条</span></h1>
+        <div class="msg-lunbo-box">
+            <ul class="msg-lunbo-box-list" id="msg-list">
+                <li>
+                    <a href=""> 360手机N5 现货开放 极速爽购！</a>
+                </li>
+                <li>
+                    <a href="">360商城网站信息重组和系统升级公告</a>
+                </li>
+                <li>
+                    <a href="">360儿童手表新品上市，低至199元！</a>
+                </li>
+                <li>
+                    <a href="">360手机N5 现货开放 极速爽购！</a>
+                </li>
+                <li>
+                    <a href="">360商城网站信息重组和系统升级公告</a>
+                </li>
+                <li>
+                    <a href="">360儿童手表新品上市，低至199元！</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h2 class="mingxingdanpin">
+            <i class="mx-icon">
+            </i>
+            明星单品
+            <i class="mx-icon"></i>
+        </h2>
+        <ul class="clearFixed mxdp-show" id="mxdp-show">
+        </ul>
+        <!--新品上市-->
+        <h2 class="mingxingdanpin">
+            <i class="mx-icon">
+            </i>
+            新品上市
+            <i class="mx-icon"></i>
+        </h2>
+        <a href="" class="xpss">
+            <img class="xpss-img" src="http://b2c-online.c-bj.jcloud.com/e0b0cfa8-d26e-4da9-bbdb-18f58044d22f.jpg"
+                 alt="">
+            <p class="xpss-text">360安全路由2代 高配智能路由新品 光纤别墅级穿墙覆盖王</p>
+            <p class="xpss-price">199.00</p>
+        </a>
+        <h2 class="mingxingdanpin">
+            <i class="mx-icon">
+            </i>
+            手机
+            <i class="mx-icon"></i>
+        </h2>
+        <a href="" class="xpss">
+            <img class="xpss-img" src="http://b2c-online.c-bj.jcloud.com/0dfc7f14-bd8c-4176-a764-116a82f0f2c3.jpg"
+                 alt="">
+        </a>
+        <!--手机显示列表-->
+        <ul class="clearFixed" id="mobile">
+        </ul>
+        <!--数码-->
+        <h2 class="mingxingdanpin">
+            <i class="mx-icon">
+            </i>
+            数码
+            <i class="mx-icon"></i>
+        </h2>
+        <a href="" class="xpss">
+            <img class="xpss-img" src="http://b2c-online.c-bj.jcloud.com/58b085b2-1ae3-4520-b728-5f333bc3b2c5.jpg"
+                 alt="">
+        </a>
+        <!--数码显示列表-->
+        <ul class="clearFixed" id="shuma">
+        </ul>
+        <!--娱乐-->
+        <h2 class="mingxingdanpin">
+            <i class="mx-icon">
+            </i>
+            娱乐
+            <i class="mx-icon"></i>
+        </h2>
+        <a href="" class="xpss">
+            <img class="xpss-img" src="http://b2c-online.c-bj.jcloud.com/3f257ca7-072d-4839-a237-1904367e9ed0.jpg"
+                 alt="">
+        </a>
+        <!--娱乐显示列表-->
+        <ul class="clearFixed" id="yule">
+        </ul>
+        <!--电脑办公-->
+        <h2 class="mingxingdanpin">
+            <i class="mx-icon">
+            </i>
+            电脑办公
+            <i class="mx-icon"></i>
+        </h2>
+        <a href="" class="xpss">
+            <img class="xpss-img" src="http://b2c-online.c-bj.jcloud.com/65c39389-c472-4a92-b12d-bd760afa8266.jpg"
+                 alt="">
+        </a>
+        <!--电脑显示列表-->
+        <ul class="clearFixed" id="dianNao">
+        </ul>
+        <!-- 家用电器-->
+        <h2 class="mingxingdanpin">
+            <i class="mx-icon">
+            </i>
+            家用电器
+            <i class="mx-icon"></i>
+        </h2>
+        <a href="" class="xpss">
+            <img class="xpss-img" src="http://b2c-online.c-bj.jcloud.com/113f3190-382a-40b3-b2b4-416f3f047008.jpg"
+                 alt="">
+        </a>
+        <!-- 家用电器显示列表-->
+        <ul class="clearFixed" id="jiaYongDianQi">
+        </ul>
+
+
+        <!-- 汽车用品-->
+        <h2 class="mingxingdanpin">
+            <i class="mx-icon">
+            </i>
+            汽车用品
+            <i class="mx-icon"></i>
+        </h2>
+        <a href="" class="xpss">
+            <img class="xpss-img" src="http://b2c-online.c-bj.jcloud.com/20321ebb-848a-425f-9ba5-13fcb2474a17.jpg"
+                 alt="">
+        </a>
+        <!-- 汽车用品显示列表-->
+        <ul class="clearFixed" id="qiCheYongPin">
+        </ul>
+        <!-- 摄影摄像-->
+        <h2 class="mingxingdanpin">
+            <i class="mx-icon">
+            </i>
+            摄影摄像
+            <i class="mx-icon"></i>
+        </h2>
+        <a href="" class="xpss">
+            <img class="xpss-img" src="http://b2c-online.c-bj.jcloud.com/6552778c-9630-4bc2-97a3-ef5b9705518b.jpg"
+                 alt="">
+        </a>
+        <!-- 摄影摄像显示列表-->
+        <ul class="clearFixed" id="sheYingSheXiang">
+        </ul>
+        <!-- 教育/文具-->
+        <h2 class="mingxingdanpin">
+            <i class="mx-icon">
+            </i>
+            教育/文具
+            <i class="mx-icon"></i>
+        </h2>
+        <a href="" class="xpss">
+            <img class="xpss-img" src="http://b2c-online.c-bj.jcloud.com/e8c7ce36-e94c-41cc-b302-bede89803e9f.jpg"
+                 alt="">
+        </a>
+        <!-- 教育/文具显示列表-->
+        <ul class="clearFixed" id="jiaoYuWenJu">
+        </ul>
+        <!-- 户外/运动-->
+        <h2 class="mingxingdanpin">
+            <i class="mx-icon">
+            </i>
+            户外/运动
+            <i class="mx-icon"></i>
+        </h2>
+        <a href="" class="xpss">
+            <img class="xpss-img" src="http://b2c-online.c-bj.jcloud.com/d09959cf-94c2-4fed-a311-747b437ecbaf.jpg"
+                 alt="">
+        </a>
+        <!-- 户外/运动显示列表-->
+        <ul class="clearFixed" id="huWaiYunDong">
+        </ul>
+        <!--点击查看更多-->
+        <a href="" class="mingxingdanpin more">
+            点击查看更多&gt;&gt;
+        </a>
+    </div>
+    <!--页脚的开始-->
+    <div class="footer clearFixed">
+        <ul class="day-server-ul">
+            <li class="day-server-list">
+                <p class="server-list-num"><span>7</span></p>
+                <p>7天无理由退货</p>
+            </li>
+            <li class="day-server-list">
+                <p class="server-list-num"><span>15</span></p>
+                <p>15天免费换货</p>
+            </li>
+            <li class="day-server-list del">
+                <p class="server-list-num"><span>包</span></p>
+                <p>满99元包邮</p>
+            </li>
+        </ul>
+        <div class="footer-introduce">
+            <p class="server">
+                客服热线 &nbsp; ：&nbsp;
+                <a href="">400-6822-360</a>
+                &nbsp;周一到周日&nbsp;9:00-18:00
+            </p>
+            <p class="copy">
+                360商城©2013-2017&nbsp;版权所有
+            </p>
+        </div>
+    </div>
+    <!--页脚的菜单-->
+    <div class="foot-menu-box">
+        <!--返回顶部-->
+        <div class="return-top">
+            <a href="#" class="return-top-a"><img src="./img/top.png" alt=""></a>
+        </div>
+        <ul class="foot-menu-box-list">
+            <li class="menu-item "><a href="" class="one-icon">首页</a></li>
+            <li class="menu-item "><a href="" class="two-icon">分类</a></li>
+            <li class="menu-item "><a href="" class="three-icon">购物车</a></li>
+            <li class="menu-item "><a class="four-icon">我</a></li>
+        </ul>
+    </div>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/swiper-3.4.2.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

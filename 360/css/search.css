@@ -1,0 +1,93 @@
+
+.top-container {
+    background-color: rgb(247, 247, 247);
+    min-width: 320px;
+}
+.top-wrapper {
+    background-color: rgb(247, 247, 247);
+    padding: 8px 0;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.top {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+.return {
+    float: left;
+    margin: 12px 12px 12px 20px;
+}
+
+.return > i {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid rgba(160, 160, 160, 0.8);
+    border-left: 2px solid rgba(160, 160, 160, 0.8);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.top-search {
+    height: 36px;
+    width: 65%;
+    /*display: block;*/
+    font-size: 15px;
+    padding-left: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+    float: left;
+}
+
+.search-btn {
+    border: none;
+    font-size: 14px;
+    padding-left: 8px;
+    background-color: rgb(247, 247, 247);
+    float: left;
+    margin: 8px 0 8px 5px;
+}
+/*主体内容的开始*/
+.main-container {
+    max-width: 750px;
+    margin: 0 auto;
+    min-width: 320px;
+}
+
+.text {
+    padding: 15px 0 0 15px;
+}
+
+.text li {
+    padding: 5px 15px;
+    display: block;
+    float: left;
+    color: rgb(160, 160, 160);
+    border: 1px solid rgb(160, 160, 160);
+    background-color: #fff;
+    margin-left: 12px;
+    margin-top: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.fill {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F0F0F0;
+    z-index: -1;
+}
+

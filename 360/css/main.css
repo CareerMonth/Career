@@ -1,0 +1,374 @@
+﻿body {
+    background-color: rgb(244, 244, 244);
+}
+
+.wrapper-max {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.top {
+    background-color: rgb(247, 247, 247);
+    padding: 0.66rem 0;
+}
+
+.top-search {
+    height: 3rem;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    padding-left: 0.83rem;
+    -webkit-border-radius: 0.42rem;
+    -moz-border-radius: 0.42rem;
+    border-radius: 0.42rem;
+    border: 1px solid #cacaca;
+}
+
+.swiper-slide img {
+    min-height: 17rem;
+    width: 100%;
+    max-height: 42rem;
+}
+
+.msg-box {
+    background-color: white;
+    padding: 1.25rem 0 0.83rem 0.83rem;
+    min-width: 25rem;
+}
+
+.shangchang {
+    float: left;
+}
+
+.shangchang > span {
+    background-color: rgb(253, 124, 121);
+    color: white;
+    font-weight: normal;
+    font-size: 1.5rem;
+    padding: 1px;
+    vertical-align: middle;
+    margin-left: 1px;
+}
+
+/*信息的轮播图*/
+.msg-lunbo-box {
+    float: left;
+    width: 65%;
+    height: 2rem;
+    margin-left: 0.66rem;
+    padding-left: 0.66rem;
+    position: relative;
+    border-left: 1px solid gainsboro;
+    margin-top: 0.5rem;
+    overflow: hidden;
+}
+
+.msg-lunbo-box-list {
+    position: absolute;
+}
+
+.msg-lunbo-box-list > li {
+    height: 2rem;
+}
+
+.msg-lunbo-box-list a {
+    font-size: 1.2rem;
+    display: block;
+    /*width: 75%;*/
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 2rem;
+    color: #666;
+
+}
+
+/*明星单品*/
+.mingxingdanpin {
+    padding: 0.83rem;
+    text-align: center;
+    color: #999;
+    font-weight: normal;
+}
+
+.mingxingdanpin .mx-icon {
+    display: inline-block;
+    height: 1.25rem;
+    margin: 0 0.83rem;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    border-left: 1px solid #CCC;
+}
+
+/*列表的显示*/
+.show-li {
+    padding: 1.25rem 0 .7rem 0;
+    width: 50%;
+    background-color: #ffffff;
+    float: left;
+    border-bottom: 1px solid #CCC;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-right: 1px solid #CCC;
+}
+
+.show-li:nth-of-type(even) {
+    border-right: 1px solid #fff !important;
+}
+
+.mxdp-show-p {
+    text-align: center;
+}
+
+.mxdp-show-p-icon {
+    height: 1.5rem;
+    padding: 0.3rem 0.9rem 0.3rem 0.3rem;
+    display: inline-block;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #CCC;
+}
+
+.mxdp-show-p-icon > img {
+    padding: 0 0.2rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-top:-0.08rem;
+}
+
+.mxdp-show-p-icon > span {
+    vertical-align: middle;
+    color: #666;
+}
+
+.mxdp-show-img {
+    display: block;
+    width: 80%;
+    margin: 1.25rem auto;
+}
+
+.mxdp-show-txt {
+    padding-top: 0.3rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+    color: #666666;
+    font-size: 1.2rem;
+    min-height: 2rem;
+}
+
+/*新品上市*/
+.xpss {
+    display: block;
+    background-color: #fff;
+}
+
+.xpss-img {
+    width: 100%;
+    max-height: 29rem;
+}
+
+.xpss-text {
+    padding: 1.7rem 4% 0.83rem;
+    color: #333;
+    line-height: 1.7rem;
+}
+
+.xpss-price {
+    padding: 0 4% 0.83rem;
+    color: #999;
+}
+
+/*手机*/
+.mobile-li {
+    padding: 1.25rem 0;
+    width: 50%;
+    background-color: #ffffff;
+    float: left;
+    border-bottom: 1px solid #c9c9c9;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-right: 1px solid #c9c9c9;
+}
+
+.mobile-li:nth-of-type(even) {
+    border-right: 1px solid #fff !important;
+}
+
+.mobile-li-img {
+    display: block;
+    width: 70%;
+    margin: 1.25rem auto;
+}
+
+.mobile-li-txt {
+    font-size: 1.2rem;
+    min-height: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.6rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.mobile-li-fist-txt {
+    color: #555;
+}
+
+.mobile-li-second-txt {
+    color: #999999;
+}
+/*点击查看更多*/
+.more {
+    display: block;
+    font-size: 1.2rem;
+}
+/*底部的开始*/
+.footer {
+    background-color: #fff;
+    border-top:1px solid #CCCCCC;
+}
+/*  服务天数*/
+.day-server-ul{
+    padding:1.3rem 0;
+    display: flex;
+}
+.day-server-list{
+    flex: 1;
+    border-right:1px solid #CCCCCC;
+   text-align: center;
+}
+li.del{
+    border-right:1px solid #ffffff;
+}
+.server-list-num span{
+    padding:1rem;
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid #CCCCCC;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+.day-server-list p{
+    padding: 0.5rem 0;
+}
+
+/*服务文字的设计*/
+.footer-introduce {
+    height: 5rem;
+    padding-bottom: 6rem;
+    padding-top: 1rem;
+    border-top: 1px solid #CCCCCC;
+
+}
+
+.server a {
+    color: #555;
+}
+
+.copy, .server {
+    text-align: center;
+    line-height: 2.3rem;
+    color: #555;
+}
+
+/*返回顶部*/
+.return-top{
+    width: 100%;
+    max-width: 750px;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    bottom: 6rem;
+    right: 0;
+}
+.return-top-a {
+    position: absolute;
+    z-index: 9;
+    right: 0.6rem;
+    bottom: 0;
+}
+
+.return-top-a img {
+    width: 3.4rem;
+    height: 3.4rem;
+}
+
+/*底部菜单的开始*/
+.foot-menu-box {
+    width: 100%;
+    max-width: 750px;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.foot-menu-box-list {
+    display: flex;
+
+}
+
+.menu-item {
+    flex: 1;
+    justify-content: center;
+    /*align-items: center;*/
+    display: flex;
+    height: 5rem;
+    background-color: white;
+    float: left;
+    border-top: 1px solid #CCCCCC;
+}
+.menu-item a {
+    /*background-color: whitesmoke;*/
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.28rem;
+    color: #555;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 3.33rem;
+}
+
+.one-icon {
+    background: url("../img/index.png") no-repeat center 0.25rem;
+    -webkit-background-size: 5.0rem 3.3rem;
+    background-size: 5.0rem 3.3rem;
+}
+
+.two-icon {
+    background: url("../img/kind.png") no-repeat center 0.25rem;
+    -webkit-background-size: 5.0rem 3.3rem;
+    background-size: 5.0rem 3.3rem;
+}
+
+.three-icon {
+    background: url("../img/car.png") no-repeat center 0.25rem;
+    -webkit-background-size: 5.0rem 3.3rem;
+    background-size: 5.0rem 3.3rem;
+}
+
+.four-icon {
+    background: url("../img/seft.png") no-repeat center 0.25rem;
+    -webkit-background-size: 5.0rem 3.3rem;
+    background-size: 5.0rem 3.3rem;
+}
+
+
+
+
+
+
+
+
+
