@@ -282,20 +282,11 @@ li.del{
 }
 
 /*返回顶部*/
-.return-top{
-    width: 100%;
-    max-width: 750px;
-    position: fixed;
-    margin: 0 auto;
-    left: 0;
-    bottom: 6rem;
-    right: 0;
-}
 .return-top-a {
-    position: absolute;
+    position: fixed;
     z-index: 9;
     right: 0.6rem;
-    bottom: 0;
+    bottom: 6rem;
 }
 
 .return-top-a img {
